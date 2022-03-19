@@ -1,6 +1,10 @@
 import React from 'react'
-import { Container, List, ItemList, ListCheck, ListTitle, ListInputText, ListAddButton, ListActionButton, ListActions } from './styles'
+import { Container, List, ItemList, ListCheck, 
+         ListTitle, ListInputText, ListAddButton, 
+         ListActionButton, ListActions, ListOrderDragAndDrop,
+         ListOrderArrow } from './styles'
 import  { v4 as uuidv4 } from 'uuid'
+import { arrayMoveImmutable } from 'array-move'
 
 import axios from 'axios';
 
@@ -22,15 +26,48 @@ class GuestsList extends React.Component {
         this.state = {
             statusList: [],
             guestsList: [],
-            inputText: ''
+            inputText: '',
         }
+    }
+
+    onClickItemArrowUp(e, id) {
+        const currentList = this.state.guestsList
+        const itemCurrentIndex = currentList.findIndex(item => item.id === id)
+        if(itemCurrentIndex > 0) {
+            const newList = arrayMoveImmutable(currentList, itemCurrentIndex, itemCurrentIndex-1)
+            this.setState({ guestsList: [...newList]}, 
+                            () => this.orderCurrentList())
+                            console.log(this.state.guestsList)
+        }
+    }
+
+    onClickItemArrowDown(e, id) {
+        console.log('done!')
+        const currentList = this.state.guestsList
+        const itemCurrentIndex = currentList.findIndex(item => item.id === id)
+        if(itemCurrentIndex < currentList.length -1) {
+            const newList = arrayMoveImmutable(currentList, itemCurrentIndex, itemCurrentIndex+1)
+            this.setState({ guestsList: [...newList]}, 
+                            () => this.orderCurrentList())
+                            console.log(this.state.guestsList)
+        }
+    }
+
+    orderCurrentList() {
+        const guestList = this.state.guestsList
+        let orderNumber = 0
+        const orderedList = guestList.map((item) => {
+            orderNumber++
+            return {...item, order: orderNumber}
+        })
+        this.setState({ guestsList: [...orderedList] })
     }
 
     onClickRemoveItemListButton(e, id) {
         const newList = this.state.guestsList.filter(item => item.id !== id)
         this.setState({
             guestsList: [...newList]
-        })
+        }, () => this.orderCurrentList())
     }
 
     onClickAddItemListButton(e) {
@@ -101,7 +138,15 @@ class GuestsList extends React.Component {
                     {this.state.guestsList.map(guest => {
                         return(
                         <ItemList key={guest.id}>
-                            &#10070;
+                            <ListOrderArrow onClick={(e) => this.onClickItemArrowUp(e, guest.id)}>
+                                &uarr;
+                            </ListOrderArrow>
+                            <ListOrderArrow onClick={(e) => this.onClickItemArrowDown(e, guest.id)}>
+                                &darr;
+                            </ListOrderArrow>
+                            <ListOrderDragAndDrop>
+                                &#10070;
+                            </ListOrderDragAndDrop>
                             <ListCheck type="checkbox" name={`guest-${guest.id}`}/>
                             <ListTitle color={this.getStatusByCode(guest.status_code).color}>{guest.name}</ListTitle>
                             <ListActions>

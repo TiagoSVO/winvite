@@ -7,6 +7,14 @@ export const Container = styled.main`
     display: grid;
 `
 
+export const ListOrderArrow = styled.span`
+    cursor: pointer;
+`
+
+export const ListOrderDragAndDrop = styled.span`
+    cursor: n-resize;
+`
+
 export const ListInputText = styled.input``
 
 export const ListAddButton = styled.button``

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, List, ItemList, ListCheck, ListTitle, ListInputText } from './styles'
+import { Container, List, ItemList, ListCheck, ListTitle, ListInputText, ListAddButton } from './styles'
 
 import axios from 'axios';
 
@@ -23,6 +23,27 @@ class GuestsList extends React.Component {
             guestsList: [],
             inputText: ''
         }
+    }
+
+    onClickAddItemListButton(e) {
+        const guestName = this.state.inputText
+        const listGuest = this.state.guestsList
+        const newGuest = {
+            "order": listGuest.length + 1,
+            "name": guestName,
+            "isChild": false,
+            "status_code": "L"
+        }
+        this.setState({
+            guestsList: [...this.state.guestsList, newGuest]
+        })
+        this.clearListInputText()
+    }
+
+    clearListInputText() {
+        this.setState({
+            inputText: ''
+        })
     }
 
     onChangeListInputText(e) {
@@ -66,11 +87,12 @@ class GuestsList extends React.Component {
         return(
             <>
                 <ListInputText type="text" value={this.state.inputText} onChange={(e) => this.onChangeListInputText(e)}/>
+                <ListAddButton onClick={(e) => this.onClickAddItemListButton(e)}>Add Guest</ListAddButton>
                 <List>
                     {this.state.guestsList.map(guest => {
                         return(
-                        <ItemList key={guest.id}>
-                            <ListCheck type="checkbox" name={`guest-${guest.id}`}/>
+                        <ItemList key={guest.order}>
+                            <ListCheck type="checkbox" name={`guest-${guest.order}`}/>
                             <ListTitle color={this.getStatusByCode(guest.status_code).color}>{guest.name}</ListTitle>
                         </ItemList>)
                     })}

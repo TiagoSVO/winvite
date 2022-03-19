@@ -9,6 +9,8 @@ export const Container = styled.main`
 
 export const ListInputText = styled.input``
 
+export const ListAddButton = styled.button``
+
 export const List = styled.ul`
     width: 50%;
     margin: 0 auto;

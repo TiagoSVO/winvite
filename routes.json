@@ -1,0 +1,5 @@
+{
+    "/":"$1",
+    "/status":"/status",
+    "/lists/:user_id/guests":"/lists/:user_id/guests"
+}

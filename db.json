@@ -1,0 +1,76 @@
+{
+  "users": [
+    { "id": 1, "name": "Tiago da Silva Valeriano de Oliveira"}
+  ],
+  "status": [
+    { "id": 1, "title": "Listado", "code": "L", "color": "#333"},
+    { "id": 2, "title": "Convidado", "code": "I", "color": "aqua" },
+    { "id": 3, "title": "Espera", "code": "W", "color": "yellow"  },
+    { "id": 4, "title": "Sim", "code": "Y", "color": "green"  },
+    { "id": 5, "title": "Não", "code": "N", "color": "red"  }
+  ],
+  "lists": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "guests": [
+        {
+          "id": 1,
+          "order": 1,
+          "name": "Tiago",
+          "isChild": false,
+          "status_code": "Y"
+        },
+        {
+          "id": 2,
+          "order": 2,
+          "name": "Mariel",
+          "isChild": false,
+          "status_code": "Y"
+        },
+        {
+          "id": 3,
+          "order": 3,
+          "name": "Natalia",
+          "isChild": false,
+          "status_code": "I"
+        },
+        {
+          "id": 4,
+          "order": 5,
+          "name": "Maria Lucia",
+          "isChild": false,
+          "status_code": "I"
+        },
+        {
+          "id": 5,
+          "order": 4,
+          "name": "Edmilson",
+          "isChild": false,
+          "status_code": "L"
+        },
+        {
+          "id": 6,
+          "order": 6,
+          "name": "Francisco Castro",
+          "isChild": false,
+          "status_code": "L"
+        },
+        {
+          "id": 7,
+          "order": 7,
+          "name": "Gelofreu",
+          "isChild": false,
+          "status_code": "N"
+        },
+        {
+          "id": 8,
+          "order": 8,
+          "name": "Gelofreu",
+          "isChild": false,
+          "status_code": "W"
+        }
+      ]
+    }
+  ]
+}

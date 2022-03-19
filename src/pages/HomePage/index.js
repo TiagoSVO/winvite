@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, List, ItemList, ListCheck, 
          ListTitle, ListInputText, ListAddButton, 
          ListActionButton, ListActions, ListOrderDragAndDrop,
-         ListOrderArrow } from './styles'
+         ListOrderArrow, ListActionSelect } from './styles'
 import  { v4 as uuidv4 } from 'uuid'
 import { arrayMoveImmutable } from 'array-move'
 
@@ -28,6 +28,18 @@ class GuestsList extends React.Component {
             guestsList: [],
             inputText: '',
         }
+    }
+
+    onChangeSelectStatus(e, id){
+        const currentList = this.state.guestsList
+        const itemCurrentIndex = currentList.findIndex(item => item.id === id)
+        const selectedCode = e.currentTarget.value
+        const itemNewStatus = {...currentList[itemCurrentIndex], status_code: selectedCode}
+        
+        currentList[itemCurrentIndex] = itemNewStatus
+        this.setState({
+            guestsList: [...currentList]
+        })
     }
 
     onClickItemArrowUp(e, id) {
@@ -151,6 +163,13 @@ class GuestsList extends React.Component {
                             <ListTitle color={this.getStatusByCode(guest.status_code).color}>{guest.name}</ListTitle>
                             <ListActions>
                                 <ListActionButton onClick={(e) => this.onClickRemoveItemListButton(e, guest.id)}>Excluir</ListActionButton>
+                                <ListActionSelect value={guest.status_code} onChange={(e) => this.onChangeSelectStatus(e, guest.id)}>
+                                    {this.state.statusList.map(status => {
+                                        return(
+                                            <option key={status.id} value={status.code}>{status.title}</option>                                            
+                                        )
+                                    })}
+                                </ListActionSelect>
                             </ListActions>
                         </ItemList>)
                     })}

@@ -1,5 +1,6 @@
-import React from 'react';
-import { Container, List, ItemList, ListCheck, ListTitle, ListInputText, ListAddButton } from './styles'
+import React from 'react'
+import { Container, List, ItemList, ListCheck, ListTitle, ListInputText, ListAddButton, ListActionButton, ListActions } from './styles'
+import  { v4 as uuidv4 } from 'uuid'
 
 import axios from 'axios';
 
@@ -25,10 +26,18 @@ class GuestsList extends React.Component {
         }
     }
 
+    onClickRemoveItemListButton(e, id) {
+        const newList = this.state.guestsList.filter(item => item.id !== id)
+        this.setState({
+            guestsList: [...newList]
+        })
+    }
+
     onClickAddItemListButton(e) {
         const guestName = this.state.inputText
         const listGuest = this.state.guestsList
         const newGuest = {
+            "id": uuidv4(),
             "order": listGuest.length + 1,
             "name": guestName,
             "isChild": false,
@@ -91,9 +100,13 @@ class GuestsList extends React.Component {
                 <List>
                     {this.state.guestsList.map(guest => {
                         return(
-                        <ItemList key={guest.order}>
-                            <ListCheck type="checkbox" name={`guest-${guest.order}`}/>
+                        <ItemList key={guest.id}>
+                            &#10070;
+                            <ListCheck type="checkbox" name={`guest-${guest.id}`}/>
                             <ListTitle color={this.getStatusByCode(guest.status_code).color}>{guest.name}</ListTitle>
+                            <ListActions>
+                                <ListActionButton onClick={(e) => this.onClickRemoveItemListButton(e, guest.id)}>Excluir</ListActionButton>
+                            </ListActions>
                         </ItemList>)
                     })}
                 </List>

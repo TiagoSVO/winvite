@@ -8,10 +8,12 @@ export const Container = styled.main`
 `
 
 export const ListOrderArrow = styled.span`
+    flex-basis: 3%;
     cursor: pointer;
 `
 
 export const ListOrderDragAndDrop = styled.span`
+    flex-basis: 3%;
     cursor: n-resize;
 `
 
@@ -25,22 +27,28 @@ export const List = styled.ul`
     width: 50%;
     margin: 0 auto;
     border: 1px solid #000;
+    text-align: center;
 `
 
 export const ItemList = styled.li`
     display:flex;
+    align-items: center;
+    justfy-content: center;
 `
 
 export const ListCheck = styled.input`
+    flex-basis: 3%;
     flex:1
 `
 
 export const ListTitle = styled.span`
-    flex:1;
+    flex-basis: 65%;
+    text-align: left;
     color:${props => props.color};
 `
 
 export const ListActions = styled.div`
+    flex-basis: 25%;
     display: flex;
     flex:1
 `
@@ -48,3 +56,5 @@ export const ListActions = styled.div`
 export const ListActionButton = styled.button`
 
 `
+
+export const ListButtonSave = styled.button``

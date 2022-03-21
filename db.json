@@ -1,13 +1,41 @@
 {
   "users": [
-    { "id": 1, "name": "Tiago da Silva Valeriano de Oliveira"}
+    {
+      "id": 1,
+      "name": "Tiago da Silva Valeriano de Oliveira"
+    }
   ],
   "status": [
-    { "id": 1, "title": "Listado", "code": "L", "color": "#333"},
-    { "id": 2, "title": "Convidado", "code": "I", "color": "aqua" },
-    { "id": 3, "title": "Espera", "code": "W", "color": "yellow"  },
-    { "id": 4, "title": "Sim", "code": "Y", "color": "green"  },
-    { "id": 5, "title": "Não", "code": "N", "color": "red"  }
+    {
+      "id": 1,
+      "title": "Listado",
+      "code": "L",
+      "color": "#333"
+    },
+    {
+      "id": 2,
+      "title": "Convidado",
+      "code": "I",
+      "color": "aqua"
+    },
+    {
+      "id": 3,
+      "title": "Espera",
+      "code": "W",
+      "color": "yellow"
+    },
+    {
+      "id": 4,
+      "title": "Sim",
+      "code": "Y",
+      "color": "green"
+    },
+    {
+      "id": 5,
+      "title": "Não",
+      "code": "N",
+      "color": "red"
+    }
   ],
   "lists": [
     {
@@ -29,46 +57,32 @@
           "status_code": "Y"
         },
         {
-          "id": 3,
+          "id": "07a655d1-d18f-460a-9c57-eed4c4a5dfb9",
           "order": 3,
-          "name": "Natalia",
-          "isChild": false,
-          "status_code": "I"
-        },
-        {
-          "id": 4,
-          "order": 5,
-          "name": "Maria Lucia",
-          "isChild": false,
-          "status_code": "I"
-        },
-        {
-          "id": 5,
-          "order": 4,
           "name": "Edmilson",
           "isChild": false,
-          "status_code": "L"
+          "status_code": "Y"
         },
         {
-          "id": 6,
-          "order": 6,
+          "id": "5414e922-e803-479e-bf2e-29735a9b9527",
+          "order": 4,
+          "name": "Natalia",
+          "isChild": false,
+          "status_code": "Y"
+        },
+        {
+          "id": "9cc2106d-7831-4f51-964a-483c2b817ac2",
+          "order": 5,
           "name": "Francisco Castro",
           "isChild": false,
-          "status_code": "L"
+          "status_code": "Y"
         },
         {
-          "id": 7,
-          "order": 7,
-          "name": "Gelofreu",
+          "id": "b6ff52fc-c561-4339-a08c-483949dbeaf3",
+          "order": 6,
+          "name": "Maria Lúcia",
           "isChild": false,
-          "status_code": "N"
-        },
-        {
-          "id": 8,
-          "order": 8,
-          "name": "Gelofreu",
-          "isChild": false,
-          "status_code": "W"
+          "status_code": "Y"
         }
       ]
     }

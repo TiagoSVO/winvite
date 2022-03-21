@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, List, ItemList, ListCheck, 
          ListTitle, ListInputText, ListAddButton, 
          ListActionButton, ListActions, ListOrderDragAndDrop,
-         ListOrderArrow, ListActionSelect } from './styles'
+         ListOrderArrow, ListActionSelect, ListButtonSave } from './styles'
 import  { v4 as uuidv4 } from 'uuid'
 import { arrayMoveImmutable } from 'array-move'
 
@@ -49,7 +49,6 @@ class GuestsList extends React.Component {
             const newList = arrayMoveImmutable(currentList, itemCurrentIndex, itemCurrentIndex-1)
             this.setState({ guestsList: [...newList]}, 
                             () => this.orderCurrentList())
-                            console.log(this.state.guestsList)
         }
     }
 
@@ -61,7 +60,6 @@ class GuestsList extends React.Component {
             const newList = arrayMoveImmutable(currentList, itemCurrentIndex, itemCurrentIndex+1)
             this.setState({ guestsList: [...newList]}, 
                             () => this.orderCurrentList())
-                            console.log(this.state.guestsList)
         }
     }
 
@@ -82,7 +80,16 @@ class GuestsList extends React.Component {
         }, () => this.orderCurrentList())
     }
 
-    onClickAddItemListButton(e) {
+    onEnterInputTodoAdd = (e) => {
+        if(e.keyCode === 13 && this.state.inputText !== '') {
+            this.addItemToTodoList()
+            this.clearListInputText()
+        } else if (e.keyCode === 27) {
+            this.clearListInputText()
+        }
+    }
+
+    addItemToTodoList() {
         const guestName = this.state.inputText
         const listGuest = this.state.guestsList
         const newGuest = {
@@ -95,7 +102,13 @@ class GuestsList extends React.Component {
         this.setState({
             guestsList: [...this.state.guestsList, newGuest]
         })
-        this.clearListInputText()
+    }
+
+    onClickAddItemListButton(e) {
+        if(this.state.inputText !== '') {
+            this.addItemToTodoList()
+            this.clearListInputText()
+        }
     }
 
     clearListInputText() {
@@ -141,10 +154,23 @@ class GuestsList extends React.Component {
         return this.state.statusList[statusIndex]
     }
 
+    async onClickSaveList(e) {
+        await this.saveList()
+    }
+
+    async saveList() {
+        const userId = 1
+        await axios({
+            method: 'patch',
+            url: `${baseUrl}/lists/${userId}`,
+            data: {guests: [...this.state.guestsList]}
+        })
+    }
+
     render() {
         return(
             <>
-                <ListInputText type="text" value={this.state.inputText} onChange={(e) => this.onChangeListInputText(e)}/>
+                <ListInputText type="text" value={this.state.inputText} onKeyDown={(e) => this.onEnterInputTodoAdd(e)} onChange={(e) => this.onChangeListInputText(e)}/>
                 <ListAddButton onClick={(e) => this.onClickAddItemListButton(e)}>Add Guest</ListAddButton>
                 <List>
                     {this.state.guestsList.map(guest => {
@@ -174,6 +200,7 @@ class GuestsList extends React.Component {
                         </ItemList>)
                     })}
                 </List>
+                <ListButtonSave onClick={(e) => this.onClickSaveList(e)}>Save List</ListButtonSave>
             </>
         )
     }

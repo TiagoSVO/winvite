@@ -3,8 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.main`
     background-color: #E7F1E6;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
+    overflow-y: auto;
+    text-align: center;
 `
 
 export const ListOrderArrow = styled.span`
@@ -33,7 +35,7 @@ export const List = styled.ul`
 export const ItemList = styled.li`
     display:flex;
     align-items: center;
-    justfy-content: center;
+    justify-content: center;
 `
 
 export const ListCheck = styled.input`
@@ -58,3 +60,11 @@ export const ListActionButton = styled.button`
 `
 
 export const ListButtonSave = styled.button``
+
+export const Board = styled.ul``
+
+export const Score = styled.li``
+
+export const ScoreTitle = styled.span``
+
+export const ScoreCount = styled.span``

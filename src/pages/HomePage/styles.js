@@ -36,6 +36,7 @@ export const ItemList = styled.li`
     display:flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid ${props => props.borderColor}
 `
 
 export const ListCheck = styled.input`

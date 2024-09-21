@@ -78,12 +78,15 @@ class StatusBoard extends React.Component {
 
 
 class GuestsList extends React.Component {
+    //TODO: Ordered List
     constructor(props) {
         super(props)
 
         this.state = {
             statusList: [],
+            groupsList: [],
             guestsList: [],
+            orderedList:[],
             inputText: '',
         }
     }
@@ -95,6 +98,18 @@ class GuestsList extends React.Component {
         const itemNewStatus = {...currentList[itemCurrentIndex], status_code: selectedCode}
         
         currentList[itemCurrentIndex] = itemNewStatus
+        this.setState({
+            guestsList: [...currentList]
+        })
+    }
+
+    onChangeSelectGroup(e, id){
+        const currentList = this.state.guestsList
+        const itemCurrentIndex = currentList.findIndex(item => item.id === id)
+        const selectedId = e.currentTarget.value
+        const itemNewGroup = {...currentList[itemCurrentIndex], group_id: selectedId}
+        
+        currentList[itemCurrentIndex] = itemNewGroup
         this.setState({
             guestsList: [...currentList]
         })
@@ -129,6 +144,10 @@ class GuestsList extends React.Component {
             return {...item, order: orderNumber}
         })
         this.setState({ guestsList: [...orderedList] })
+    }
+
+    groupCurrentList(){
+        const guestList = this.state.guestsList
     }
 
     onClickRemoveItemListButton(e, id) {
@@ -184,6 +203,7 @@ class GuestsList extends React.Component {
 
     async componentDidMount() {
         await this.getStatusList()
+        await this.getGroupsList()
         await this.getGuestList()
     }
 
@@ -194,6 +214,16 @@ class GuestsList extends React.Component {
             url: `${baseUrl}/status`
         }).then(response => {
             _this.setState({ statusList: response.data })
+        })
+    }
+
+    async getGroupsList() {
+        const _this = this
+        await axios({
+            methos: 'get',
+            url: `${baseUrl}/groups`
+        }).then(response => {
+            _this.setState({ groupsList: response.data })
         })
     }
 
@@ -211,6 +241,12 @@ class GuestsList extends React.Component {
     getStatusByCode(code) {
         const statusIndex = this.state.statusList.findIndex(status => status.code.toLowerCase() === code.toLowerCase())
         return this.state.statusList[statusIndex]
+    }
+
+    getGroupById(id) {
+        const groupsList = this.state.groupsList
+        const groupIndex = groupsList.findIndex(group => parseInt(group.id) === parseInt(id))
+        return groupsList[groupIndex]
     }
 
     async onClickSaveList(e) {
@@ -235,7 +271,7 @@ class GuestsList extends React.Component {
                 <List>
                     {this.state.guestsList.map(guest => {
                         return(
-                        <ItemList key={guest.id}>
+                        <ItemList key={guest.id} borderColor={this.getGroupById((guest.group_id || 1)).color}>
                             <ListOrderArrow onClick={(e) => this.onClickItemArrowUp(e, guest.id)}>
                                 &uarr;
                             </ListOrderArrow>
@@ -253,6 +289,13 @@ class GuestsList extends React.Component {
                                     {this.state.statusList.map(status => {
                                         return(
                                             <option key={status.id} value={status.code}>{status.title}</option>                                            
+                                        )
+                                    })}
+                                </ListActionSelect>
+                                <ListActionSelect value={guest.group_id} onChange={(e) => this.onChangeSelectGroup(e, guest.id)}>
+                                    {this.state.groupsList.map(group => {
+                                        return(
+                                            <option key={group.id} value={group.id}>{group.title}</option>                                            
                                         )
                                     })}
                                 </ListActionSelect>

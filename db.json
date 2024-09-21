@@ -5,116 +5,116 @@
       "name": "Tiago da Silva Valeriano de Oliveira"
     }
   ],
-  "social_groups": [
+  "groups": [
     {
       "id": 1,
       "title": "Sem Grupo",
-      "color": ""
+      "color": "#333"
     },
     {
       "id": 2,
       "title": "Família Mariel",
-      "color": ""
+      "color": "purple"
     },
     {
       "id": 3,
       "title": "Família Tiago",
-      "color": ""
+      "color": "darkgreen"
     },
     {
       "id": 4,
       "title": "Família Tiago(Madrinha)",
-      "color": ""
+      "color": "green"
     },
     {
       "id": 5,
       "title": "Família Tiago(Tia Delza)",
-      "color": ""
+      "color": "lime"
     },
     {
       "id": 6,
       "title": "Família Tiago(Tia Socorro)",
-      "color": ""
+      "color": "chartreuse"
     },
     {
       "id": 7,
       "title": "Família Tiago(Tia Maria)",
-      "color": ""
+      "color": "darkolivegreen"
     },
     {
       "id": 8,
       "title": "Família Tiago(Tia Zefa)",
-      "color": ""
+      "color": "forestgreen"
     },
     {
       "id": 9,
       "title": "Família Tiago(Primos)",
-      "color": ""
+      "color": "greenyellow"
     },
     {
       "id": 10,
       "title": "Legião de Maria",
-      "color": ""
+      "color": "red"
     },
     {
       "id": 11,
       "title": "Bandas",
-      "color": ""
+      "color": "lightblue"
     },
     {
       "id": 12,
-      "title": "Xerosos",
-      "color": ""
+      "title": "Só gente linda",
+      "color": "coral"
     },
     {
       "id": 13,
       "title": "Facul Tiago",
-      "color": ""
+      "color": "orange"
     },
     {
       "id": 14,
       "title": "Facul Mariel",
-      "color": ""
+      "color": "deeppink"
     },
     {
       "id": 15,
-      "title": "Sicob",
-      "color": ""
+      "title": "Sicoob",
+      "color": "darkcyan"
     },
     {
       "id": 16,
       "title": "IFB",
-      "color": ""
+      "color": "seagreen"
     },
     {
       "id": 17,
       "title": "Senado",
-      "color": ""
+      "color": "mediumblue"
     },
     {
       "id": 18,
       "title": "Colégio Tiago",
-      "color": ""
+      "color": "maroon"
     },
     {
       "id": 19,
       "title": "Campus Fidei",
-      "color": ""
+      "color": "darkgray"
     },
     {
       "id": 20,
       "title": "Humilhados",
-      "color": ""
+      "color": "cyan"
     },
     {
       "id": 21,
       "title": "Diversos Mariel",
-      "color": ""
+      "color": "darkgoldenrod"
     },
     {
       "id": 22,
       "title": "Diversos Tiago",
-      "color": ""
+      "color": "burlywood"
     }
   ],
   "status": [
@@ -165,105 +165,120 @@
           "order": 1,
           "name": "Tiago da Silva Valeriano de Oliveira",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "3"
         },
         {
           "id": "c86c243c-66c0-4e6a-968c-57516c3e2034",
           "order": 2,
           "name": "Natalia Oliveira da Silva",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "3"
         },
         {
           "id": "5a603ce0-3b39-47f2-8bf7-6d71914c1e96",
           "order": 3,
           "name": "Edmilson Valeriano de Oliveira",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "3"
         },
         {
           "id": "60216746-d1b3-4a8b-8ef7-1ef1d4e26fd2",
           "order": 4,
           "name": "Thalita Nayara",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "3"
         },
         {
           "id": "ddb5b5b7-951c-4f2b-81e2-d68fe321640e",
           "order": 5,
           "name": "Erick Luis",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "3"
         },
         {
           "id": "1c5b07a1-f3c5-4b8a-94f0-924b0588e4a1",
           "order": 6,
           "name": "Hiago da Silva",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "3"
         },
         {
           "id": "040c074b-83c7-4be9-b18e-8fdad517961c",
           "order": 7,
           "name": "Julia do Hiago",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "3"
         },
         {
           "id": "f93da05d-a31c-46d5-83c7-b44bde20a1e6",
           "order": 8,
           "name": "Diogo da Silva",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "3"
         },
         {
           "id": "6d4b24f4-43a4-4352-9fac-7659ff91cdd3",
           "order": 9,
           "name": "Scarlett do Diogo",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "3"
         },
         {
           "id": "c39cf9c3-b1bc-49cc-ac9e-0e755e5c23fd",
           "order": 10,
           "name": "Francisca Adelina",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "3"
         },
         {
           "id": "9f52a43b-e7ce-4d24-8c20-23f6b659d17e",
           "order": 11,
           "name": "Watson",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "7"
         },
         {
           "id": "7982275b-22b4-44fd-ad50-fab895276a43",
           "order": 12,
           "name": "Adnely",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "7"
         },
         {
           "id": "a82bedd3-2523-480b-a208-053eb1badf31",
           "order": 13,
           "name": "Wendel",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "9"
         },
         {
           "id": "f3680ba3-3812-4d79-9270-78d025245ec5",
           "order": 14,
           "name": "Any",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "9"
         },
         {
           "id": "0191b4a9-741a-4710-a88d-0edcaa925780",
           "order": 15,
           "name": "Henrique Primo",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "9"
         },
         {
           "id": "2e5df048-7728-470d-9427-7d77c19dc776",
@@ -277,35 +292,40 @@
           "order": 17,
           "name": "Tia Maninha",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "9"
         },
         {
           "id": "51fbf74a-e745-4c92-8684-f25e73f63eec",
           "order": 18,
           "name": "Rafael da Tia Maninha",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "9"
         },
         {
           "id": "6b141549-9d51-4fe6-8117-23c75d952373",
           "order": 19,
           "name": "Karen do Rafael",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "9"
         },
         {
           "id": "aceb6a7f-035c-45e2-8d74-104fd6fc0159",
           "order": 20,
           "name": "Betin da Tia Maninha",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "9"
         },
         {
           "id": "c627f85e-4c84-4770-9016-4d9e0bc72fd5",
           "order": 21,
           "name": "Márcia do Betin",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "9"
         },
         {
           "id": "6aee11e3-3a95-4814-a147-cf1377e890db",
@@ -487,350 +507,400 @@
           "order": 47,
           "name": "Tio Zebedeu PI",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "5"
         },
         {
           "id": "6d98fc92-a1ee-4b74-9357-c33d1a545a4f",
           "order": 48,
           "name": "Liliane do Tio Zebedeu PI",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "5"
         },
         {
           "id": "79f27b39-21a5-4a41-bbdf-76a0a8016aaa",
           "order": 49,
           "name": "Primo Rayone",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "N",
+          "group_id": "9"
         },
         {
           "id": "7e5d6302-9079-4b04-ab31-0728db7a28bf",
           "order": 50,
           "name": "Primo Eduardo",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "9"
         },
         {
           "id": "5c48225b-913c-47a6-b3f1-b66d0cf80544",
           "order": 51,
           "name": "Esposa Primo Eduardo",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "9"
         },
         {
           "id": "545450a1-d4ee-4047-9395-2496b724ab26",
           "order": 52,
           "name": "Madrinha Fatima",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "4"
         },
         {
           "id": "f934ff15-71c0-40d7-b08e-6ba944f7421d",
           "order": 53,
           "name": "Padrinho Vicente",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "4"
         },
         {
           "id": "5c0ce769-b877-442a-a324-31b26c63c0b5",
           "order": 54,
           "name": "Prima Amanda",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "4"
         },
         {
           "id": "37167d12-c366-4b22-88f0-183cce08409c",
           "order": 55,
           "name": "Prima Cumadi Alline",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "4"
         },
         {
           "id": "1fb09602-5179-4d42-95cf-08fb3904c387",
           "order": 56,
           "name": "Julio da Alline",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "4"
         },
         {
           "id": "12559415-4dfb-4d4c-b36c-0bf870915403",
           "order": 57,
           "name": "Tia Delza",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "5"
         },
         {
           "id": "6570b786-8411-4c07-a392-259bebbbb30e",
           "order": 58,
           "name": "Alex Primo",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "5"
         },
         {
           "id": "fcf1d575-2085-4c1d-ace3-4491c40a63a9",
           "order": 59,
           "name": "Taci do Alex",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "5"
         },
         {
           "id": "368fa867-9a11-49df-9422-2edcb4affe17",
           "order": 60,
           "name": "Alessandra Prima",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "5"
         },
         {
           "id": "cd667236-70f6-4c82-aeb7-d7029a599120",
           "order": 61,
           "name": "Ni",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "5"
         },
         {
           "id": "288122a9-3f3f-42cd-ae9e-25c614e7823a",
           "order": 62,
           "name": "Adelina",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "5"
         },
         {
           "id": "6c52510c-68cb-44d8-88d0-8615b7b4ab71",
           "order": 63,
           "name": "Guilherme da Adelina",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "5"
         },
         {
           "id": "3740852d-54a9-4850-aeaf-425d5ca9974c",
           "order": 64,
           "name": "Tia Zefa",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "8"
         },
         {
           "id": "cde27466-44a9-48dd-9cb1-e3ece4bd0b34",
           "order": 65,
           "name": "Ademilson Primo",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "9"
         },
         {
           "id": "3d5c9367-26d8-477a-a11e-04cc1d316efc",
           "order": 66,
           "name": "Valéria Prima",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "8"
         },
         {
           "id": "5df6bc24-0be0-490e-a067-695a3d20fa0f",
           "order": 67,
           "name": "Ademir Primo",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "8"
         },
         {
           "id": "eea3be49-f04b-4290-bd5d-5304e828c3df",
           "order": 68,
           "name": "Lurdinha do Ademir",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "8"
         },
         {
           "id": "7e463286-0e82-4cfc-8deb-341716ee781c",
           "order": 69,
           "name": "Lucas do Ademir",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "8"
         },
         {
           "id": "acc97585-6b83-4783-b6b4-10c792bdc32a",
           "order": 70,
           "name": "Gabi do Ademir",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "8"
         },
         {
           "id": "bc7d9a4b-adb0-4c8d-aff3-6a4a20540da3",
           "order": 71,
           "name": "Tia Socorro Chacara",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "6"
         },
         {
           "id": "00604443-fde9-4b29-9ae3-33126cb2e83d",
           "order": 72,
           "name": "Tio Gonzaga da Tia Socorro Chacara",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "6"
         },
         {
           "id": "6cac796b-0014-4e8c-8063-f34068ce55c9",
           "order": 73,
           "name": "Tia Quinha da Tia Socorro",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "6"
         },
         {
           "id": "250ed0f5-0c71-4cb6-afe2-9bfa724287d9",
           "order": 74,
           "name": "Tio Ze da Tia Quinha da Tia Socorro",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "6"
         },
         {
           "id": "2bfbd243-68c8-4d40-91ef-dcf97c7b4256",
           "order": 75,
           "name": "Phelipe TAM Primo",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "6"
         },
         {
           "id": "bf678c9d-60a3-48c0-b0f0-6af88aca05e0",
           "order": 76,
           "name": "Thaís Prima",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "6"
         },
         {
           "id": "c960dbd0-8f00-4eea-89be-51fbfade808b",
           "order": 77,
           "name": "Raimundin da Tia Socorro",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "6"
         },
         {
           "id": "2484eed3-1e33-424a-b0a7-1684ba27f6e5",
           "order": 78,
           "name": "Carol do Raimundin",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "6"
         },
         {
           "id": "e26b1464-7670-4c24-bd2d-2977c5e7565e",
           "order": 79,
           "name": "Yuri",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "6"
         },
         {
           "id": "7309d5a0-962d-462e-acc1-57ccf80ab93d",
           "order": 80,
           "name": "Caio da Tia Socorro",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "6"
         },
         {
           "id": "0f3ea2e1-039d-4e2a-98a5-4acc5664f3b4",
           "order": 81,
           "name": "Marquin da Tia Socorro",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "6"
         },
         {
           "id": "31953d06-aa34-42a3-a853-528f2c3f9247",
           "order": 82,
           "name": "Juliana do Marquin",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "6"
         },
         {
           "id": "5e5c9b17-5e0e-4ee3-a06f-8bc77b0b96b8",
           "order": 83,
           "name": "Adriana da Tia Socorro",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "CE",
+          "group_id": "6"
         },
         {
           "id": "6c28a638-ae52-4cb7-b746-343b4a452bd8",
           "order": 84,
-          "name": "James da Adriana da Tia Socorro",
+          "name": "Serginho da Adriana da Tia Socorro",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "CE",
+          "group_id": "6"
         },
         {
           "id": "076adc52-6685-4b4f-a8b4-f9d3e46528c8",
           "order": 85,
           "name": "Conceição da Tia Socorro",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "N",
+          "group_id": "6"
         },
         {
           "id": "4c57b12f-983f-48b2-906a-d43240fc0cdd",
           "order": 86,
-          "name": "Marido da Conceição da Tia Socorro",
+          "name": "James da Conceição da Tia Socorro",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "N",
+          "group_id": "6"
         },
         {
           "id": "5429b79b-6fa9-413c-9bb8-a514c418c718",
           "order": 87,
           "name": "Marialves da Tia Socorro",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "CE",
+          "group_id": "6"
         },
         {
           "id": "21f12ab8-6e3b-41d1-a47e-ff159345b532",
           "order": 88,
-          "name": "Marido da Marialves da Tia Socorro",
+          "name": "João Victor Filho da Marialves",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "CE",
+          "group_id": "6"
         },
         {
           "id": "5b4382f2-64d9-455a-bbb9-7b168fcdd297",
           "order": 89,
           "name": "Marina da Marialves",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "6"
         },
         {
           "id": "7bb45bd4-5f72-476b-80da-3f7f2b70258f",
           "order": 90,
           "name": "Mariana da Marialves",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "6"
         },
         {
           "id": "3a2301fb-ad31-4d65-a393-308b9921f21d",
           "order": 91,
           "name": "Fátima do J",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "7"
         },
         {
           "id": "0ad92842-8f0d-451d-948e-64dbc69c16d4",
           "order": 92,
           "name": "J",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "7"
         },
         {
           "id": "d513c06f-0684-4add-a3d3-d39394435153",
           "order": 93,
           "name": "Lelber",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "7"
         },
         {
           "id": "3403d6d8-844f-4e1b-a7bc-161653d90e2f",
           "order": 94,
           "name": "Larissa do J",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "7"
         },
         {
           "id": "037bccd3-74cb-4401-b72f-9ab76a5c671b",
           "order": 95,
           "name": "Alexandre da Tia Maria",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "7"
         },
         {
           "id": "1b68587a-d32a-4c0d-9fcd-67544de9fd8d",
           "order": 96,
           "name": "Adriana do Alexandre da Tia Maria",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "7"
         },
         {
           "id": "085c4c2d-0a9b-40df-8a69-41696d45e872",
@@ -844,294 +914,336 @@
           "order": 98,
           "name": "Isaac Primo",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "9"
         },
         {
           "id": "76b0ce88-b4c4-41db-b29f-26ae067b9149",
           "order": 99,
           "name": "Mario da Tia Maria",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "7"
         },
         {
           "id": "dc2647ef-9870-484c-a6fe-15dcd0a91793",
           "order": 100,
           "name": "Miller do Mario da Tia Maria",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "7"
         },
         {
           "id": "9ae33505-ab02-4a73-937d-c6bb42c650bb",
           "order": 101,
           "name": "Mateus do Mario da Tia Maria",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "7"
         },
         {
           "id": "ada107b0-b5e0-42eb-9790-166a19ad0794",
           "order": 102,
           "name": "Júlia do Mario da Tia Maria",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "7"
         },
         {
           "id": "0d391d73-d4a7-4a9a-842a-b6b314f928cb",
           "order": 103,
           "name": "Juliana do Mario da Tia Maria",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "7"
         },
         {
           "id": "5ca66f2c-03cf-4d5b-80e8-a5e4f1d18829",
           "order": 104,
           "name": "Giovana neta da Tia Socorro",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "N",
+          "group_id": "6"
         },
         {
           "id": "98b20996-0e74-4927-b191-f154285e1e14",
           "order": 105,
           "name": "Seu Orlando",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "4"
         },
         {
           "id": "11de61e1-e12f-4cfe-86be-4e54be8d18c9",
           "order": 106,
           "name": "Maristela",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "4"
         },
         {
           "id": "1cf840df-d437-4022-8468-16a43578e0c6",
           "order": 107,
           "name": "Felipe da Maristela",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "4"
         },
         {
           "id": "b7f6b2ca-6c2f-45fe-88d7-a7eb19d83115",
           "order": 108,
           "name": "Rafael da Maristela",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "4"
         },
         {
           "id": "e3a90ad9-4dfc-43e9-a566-c80870c8eaf7",
           "order": 109,
           "name": "Nonaldin",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "11"
         },
         {
           "id": "e693413b-edd9-4649-bac9-04bdc15b90a0",
           "order": 110,
           "name": "Bego",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "11"
         },
         {
           "id": "8cd0afff-28d7-4453-a7c5-5fae470bfdd5",
           "order": 111,
           "name": "Vivi",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "11"
         },
         {
           "id": "c2bc2bcb-cf47-4e72-a67a-8b534e6755ba",
           "order": 112,
           "name": "Arthur",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "11"
         },
         {
           "id": "0a42e8e8-423a-493f-80fc-120d8cb816e7",
           "order": 113,
           "name": "Bruno Banda",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "11"
         },
         {
           "id": "e1003683-3b15-495a-b3ba-653adb449aac",
           "order": 114,
           "name": "Cris Banda",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "11"
         },
         {
           "id": "f3bfd744-37c6-4bc3-bd66-2c8826d5fdc4",
           "order": 115,
           "name": "Aldemari Banda",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "11"
         },
         {
           "id": "dc215412-0812-4df4-9e04-a6fdabbe68a8",
           "order": 116,
           "name": "Soraya Banda",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "11"
         },
         {
           "id": "55bca29c-0a4d-47a8-a6ef-50470386b786",
           "order": 117,
           "name": "Cláudio Banda",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "11"
         },
         {
           "id": "dc01c9c5-e82d-4deb-9268-72e5876e238c",
           "order": 118,
           "name": "Rose Banda",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "11"
         },
         {
           "id": "e2c967f6-b9f4-4573-a2c5-541804f0f163",
           "order": 119,
           "name": "Carlinhos Banda",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "11"
         },
         {
           "id": "bf5d5d1b-392b-49ee-8bc0-ca66f9f9b0bb",
           "order": 120,
           "name": "Marina Cauhi",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "1dee6c4d-a4a5-4c99-b0e1-1334c6f97d27",
           "order": 121,
           "name": "João da Marina Cauhi",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "06d03f46-99e2-4276-ac00-8708d038e148",
           "order": 122,
           "name": "Marllos Banda",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "11"
         },
         {
           "id": "bd2b6bfe-616a-42bd-a64b-59c1b4be43ea",
           "order": 123,
           "name": "Mayco Banda",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "11"
         },
         {
           "id": "2c48d9c8-ea5e-4372-815e-178bccc2bd8e",
           "order": 124,
           "name": "Edna Banda",
           "isChild": false,
-          "status_code": "CE"
+          "status_code": "CE",
+          "group_id": "11"
         },
         {
           "id": "fe25a18e-b2e4-4207-8332-c3a5e1f616a6",
           "order": 125,
           "name": "Victor da Lari Banda",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "11"
         },
         {
           "id": "00bcb42c-98ef-43d2-be37-ccf5ba8c4695",
           "order": 126,
           "name": "Lari do Victor Banda",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "11"
         },
         {
           "id": "6a2802f3-d9b8-4175-bf98-434d9d82e2fc",
           "order": 127,
           "name": "Marcus da Miria",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "10"
         },
         {
           "id": "f48d9427-83e6-4610-a6e1-8df952c81d0a",
           "order": 128,
           "name": "Miria do Marcus",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "10"
         },
         {
           "id": "e8d0a51d-bf1d-4363-9cfe-ceda3180bdb3",
           "order": 129,
           "name": "Carol do Daniel",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "10"
         },
         {
           "id": "8cbbcf9d-7fd9-4cd7-80b4-584d6629080e",
           "order": 130,
           "name": "Daniel da Carol",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "10"
         },
         {
           "id": "dbc55981-19df-400d-8a9b-fcd54b76e1b8",
           "order": 131,
           "name": "Hartur Escola",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "18"
         },
         {
           "id": "777bea88-14e7-4ac4-a301-e38640d36a63",
           "order": 132,
           "name": "Lais do Hartur Escola",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "18"
         },
         {
           "id": "99dbb47e-ae74-43fa-a682-6770ac2725b7",
           "order": 133,
           "name": "Hugo Escola",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "N",
+          "group_id": "18"
         },
         {
           "id": "9470969c-369c-4626-870d-20f1e93b4c21",
           "order": 134,
           "name": "Nayara Escola",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "18"
         },
         {
           "id": "4d8fbd06-c76e-4ff7-8b7e-33ceede70b3d",
           "order": 135,
           "name": "Fernanda Meliga Escola",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "18"
         },
         {
           "id": "1b678c04-5a09-4b94-8cf5-4f0879a1c64f",
           "order": 136,
           "name": "Gustavo Escola",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "18"
         },
         {
           "id": "94d09dc8-a24d-4592-be8b-b3ffb70d037e",
           "order": 137,
           "name": "Amilk Escola",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "18"
         },
         {
           "id": "2ca039d3-9645-4c2a-8d93-fea9d3bce949",
           "order": 138,
           "name": "Ingrid do Amilk Escola",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "18"
         },
         {
           "id": "2750909c-037c-4f1d-9445-ecf1b281b20b",
           "order": 139,
           "name": "Fabiola Escola",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "18"
         },
         {
           "id": "9e5a8430-4fa6-4342-9edb-a0435c1f8b9e",
@@ -1159,133 +1271,144 @@
           "order": 143,
           "name": "Washington Escola",
           "isChild": false,
-          "status_code": "I"
+          "status_code": "N"
         },
         {
           "id": "17e4f3e0-62fc-41d7-9043-01018f6bb780",
           "order": 144,
           "name": "Thiago Bolinha Escola",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "Y"
         },
         {
           "id": "74d72b69-ab1b-4b8e-be3a-de53569d177f",
           "order": 145,
           "name": "Taylane Escola",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "Y"
         },
         {
           "id": "29996410-9b4e-4c33-b27d-c35ff805136a",
           "order": 146,
           "name": "Angelo Facul",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "13"
         },
         {
           "id": "120c42d3-961c-4108-88ad-420a7dbc3499",
           "order": 147,
           "name": "Flaviana do Angelo Facul",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "13"
         },
         {
           "id": "ea603ccf-caf8-408d-9f3e-fb0e261ef5a1",
           "order": 148,
           "name": "Erick Facul",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "Y",
+          "group_id": "13"
         },
         {
           "id": "f804852f-8647-4e1f-8185-1569a3b7779c",
           "order": 149,
           "name": "Mulher do Erick Facul",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "Y",
+          "group_id": "13"
         },
         {
           "id": "1fa1e797-bf9d-40fe-9ad1-f3c9fa643306",
           "order": 150,
           "name": "Hugo Facul",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "13"
         },
         {
           "id": "ff24b0ec-2ad5-43de-9c20-a7bba1a15838",
           "order": 151,
           "name": "Vanessa Facul",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "13"
         },
         {
           "id": "b02621db-25ac-4f2e-8814-387daae3a404",
           "order": 152,
           "name": "Marido da Vanessa Facul",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "13"
         },
         {
           "id": "0e4a5ef6-5207-443b-beff-fb66f2070c0e",
           "order": 153,
           "name": "Thiago Facul",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "13"
         },
         {
           "id": "6c1f6ac4-199d-4b24-9c1f-577198cfc346",
           "order": 154,
           "name": "Dalila Facul",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "W",
+          "group_id": "13"
         },
         {
           "id": "dd05bbba-6530-4935-9790-dbacafb17632",
           "order": 155,
           "name": "Marta Facul",
           "isChild": false,
-          "status_code": "I"
+          "status_code": "Y",
+          "group_id": "13"
         },
         {
           "id": "4434a0a3-da2e-4f00-9a23-833562e855db",
           "order": 156,
           "name": "Mahendra Facul",
           "isChild": false,
-          "status_code": "I"
+          "status_code": "N",
+          "group_id": "13"
         },
         {
           "id": "1a957b9f-5ec8-495e-a77a-8e11d46bb5f7",
           "order": 157,
           "name": "Aline IFB",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE"
         },
         {
           "id": "83d76818-3e24-4587-8fd2-bd503bc4f0c1",
           "order": 158,
           "name": "Ricardo da Aline IFB",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE"
         },
         {
           "id": "0a0fb5df-d450-4046-832f-d10c3718d625",
           "order": 159,
           "name": "Balzi IFB",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE"
         },
         {
           "id": "43a95374-e548-4c1b-8ce2-198c935d07ae",
           "order": 160,
           "name": "Patricia do Balzi IFB",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE"
         },
         {
           "id": "f2da9f28-a89d-4373-a584-41d7758bdc69",
           "order": 161,
           "name": "Alessandro IFB",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE"
         },
         {
           "id": "d8ef4ce7-7bae-4941-a792-bdbb6af6d641",
@@ -1299,42 +1422,42 @@
           "order": 163,
           "name": "João IFB",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE"
         },
         {
           "id": "b446115e-2aba-4b7f-8ae6-0cacc088ae06",
           "order": 164,
           "name": "Borges IFB",
           "isChild": false,
-          "status_code": "W"
-        },
-        {
-          "id": "e5052b4d-06ef-4f26-8de9-5314ca617f3c",
-          "order": 165,
-          "name": "Bruno IFB",
-          "isChild": false,
-          "status_code": "W"
+          "status_code": "N"
         },
         {
           "id": "2909aee7-875b-4a4a-a87e-278e7a6d69bb",
-          "order": 166,
+          "order": 165,
           "name": "Esposa Bruno IFB",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "N"
+        },
+        {
+          "id": "e5052b4d-06ef-4f26-8de9-5314ca617f3c",
+          "order": 166,
+          "name": "Bruno IFB",
+          "isChild": false,
+          "status_code": "N"
         },
         {
           "id": "4cd37efc-faa0-4a1b-8dcb-118e26c754ec",
           "order": 167,
           "name": "Daniel IFB",
           "isChild": false,
-          "status_code": "I"
+          "status_code": "N"
         },
         {
           "id": "aa10b83a-1f54-4123-aa75-237a86f2820f",
           "order": 168,
           "name": "Esposa Daniel IFB",
           "isChild": false,
-          "status_code": "I"
+          "status_code": "N"
         },
         {
           "id": "15b7ea4f-6d04-4de8-bc9f-177e1bb31ca0",
@@ -1355,14 +1478,14 @@
           "order": 171,
           "name": "Cadu Senado",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE"
         },
         {
           "id": "6ff1a511-9334-441a-bdcb-0a79539d8536",
           "order": 172,
           "name": "Esposa Cadu Senado",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE"
         },
         {
           "id": "7ed62c58-691f-4004-9b59-4e42722f2460",
@@ -1383,21 +1506,24 @@
           "order": 175,
           "name": "Fabiano Senado",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "17"
         },
         {
           "id": "f883be36-0777-49b7-be20-55c4b0e9061e",
           "order": 176,
           "name": "Esposa Fabiano Senado",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "17"
         },
         {
           "id": "31a6d075-fe32-430d-9b94-01091333a91f",
           "order": 177,
           "name": "Glebson Senado",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "N",
+          "group_id": "17"
         },
         {
           "id": "db30d3f1-c9d8-4cfd-bd17-dfdb77f9bb59",
@@ -1425,28 +1551,28 @@
           "order": 181,
           "name": "Rony Senado",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE"
         },
         {
           "id": "d8804481-cbc6-49fa-8241-31a46716e917",
           "order": 182,
           "name": "Esposa Rony Senado",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE"
         },
         {
           "id": "3c6ea6a1-5150-4107-8fa5-5252ca7f10a8",
           "order": 183,
           "name": "Wilton Senado",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "N"
         },
         {
           "id": "8e3bd929-c66c-419d-9088-a6f8107851ef",
           "order": 184,
           "name": "Esposa Wilton Senado",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "N"
         },
         {
           "id": "ce34a6af-abc5-4444-a2ff-2219882aaeee",
@@ -1467,35 +1593,35 @@
           "order": 187,
           "name": "Hugo IFB",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "N"
         },
         {
           "id": "eb210597-5364-40f3-8e4e-1c47840489c2",
           "order": 188,
           "name": "Esposa Hugo IFB",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "N"
         },
         {
           "id": "9142f948-1bd7-4211-bbfc-5480faa696fb",
           "order": 189,
           "name": "Diogo IFB",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE"
         },
         {
           "id": "4ff760d4-bcd1-4b56-9c16-50d5a0772143",
           "order": 190,
           "name": "Waldene IFB",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE"
         },
         {
           "id": "00e11894-0adb-4760-8a51-da3454263cb4",
           "order": 191,
           "name": "Esposo Waldene IFB",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE"
         },
         {
           "id": "d0c5a7d9-a2c9-4de1-bcb3-167b7c24cb68",
@@ -1523,28 +1649,28 @@
           "order": 195,
           "name": "Sérgio IFB",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "N"
         },
         {
           "id": "42ec3c98-4239-4369-ad48-9350f762255a",
           "order": 196,
           "name": "Everson IFB",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "N"
         },
         {
           "id": "4970daa5-41b6-4d2f-8cd8-9a02d5d0666f",
           "order": 197,
           "name": "Tiago Jesus IFB",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "N"
         },
         {
           "id": "7daa71e0-b5f8-498f-b729-394112f99806",
           "order": 198,
           "name": "Esposa Tiago Jesus IFB",
           "isChild": false,
-          "status_code": "W"
+          "status_code": "N"
         },
         {
           "id": "6f562f48-089b-4110-a925-c8cf2fab00c4",
@@ -1565,105 +1691,120 @@
           "order": 201,
           "name": "Mariel",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "2"
         },
         {
           "id": "4f7d6646-6579-4d33-baf1-a4dc0f789b58",
           "order": 202,
           "name": "Leon",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "2"
         },
         {
           "id": "ad0273fe-5bdc-4824-aabb-6677a357ed85",
           "order": 203,
           "name": "Maria Lúcia",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "2"
         },
         {
           "id": "08de25fa-d259-4f0b-85bb-09d80217dc16",
           "order": 204,
           "name": "Francisco Castro",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "2"
         },
         {
           "id": "24bd5702-a21a-4859-8f54-ff0bf7ba7143",
           "order": 205,
           "name": "Celso",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "2"
         },
         {
           "id": "4401b34e-c942-4f71-80e9-d00d10756064",
           "order": 206,
           "name": "Utena",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "2"
         },
         {
           "id": "2157e1bd-19f8-4f20-ad83-7928cd133859",
           "order": 207,
           "name": "Sergio",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "2"
         },
         {
           "id": "9d30c0c6-f56f-43eb-b25a-03f66487e958",
           "order": 208,
           "name": "Lia",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "2"
         },
         {
           "id": "adfd0c53-10de-4443-b941-0c65810a67dd",
           "order": 209,
           "name": "Roseli",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "2"
         },
         {
           "id": "ad688fe7-a86c-43b7-822c-63d7367046fb",
           "order": 210,
           "name": "Marina",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "2"
         },
         {
           "id": "132bf6b5-76e9-4d97-9cf9-301fa33581a7",
           "order": 211,
           "name": "Marina - Roseli",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "2"
         },
         {
           "id": "2ae07947-09d4-459e-aaa1-a2dd7925c53a",
           "order": 212,
           "name": "Carmo - Roseli",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "2"
         },
         {
           "id": "30ee1d60-9821-4736-8040-1d36a9a8e5de",
           "order": 213,
           "name": "Anderson Primo",
           "isChild": false,
-          "status_code": "I"
+          "status_code": "N",
+          "group_id": "2"
         },
         {
           "id": "4775aba6-f39a-4e1e-be48-487ef4ec8f8a",
           "order": 214,
           "name": "Esposa Anderson Primo",
           "isChild": false,
-          "status_code": "I"
+          "status_code": "N",
+          "group_id": "2"
         },
         {
           "id": "c4c7e6da-6d84-4716-be8b-3014f9ca4325",
           "order": 215,
           "name": "Ducarmo",
           "isChild": false,
-          "status_code": "N"
+          "status_code": "CE",
+          "group_id": "2"
         },
         {
           "id": "8d271f6e-46ce-4509-9e43-c971e9458298",
@@ -1691,14 +1832,16 @@
           "order": 219,
           "name": "Tia Natalina",
           "isChild": false,
-          "status_code": "I"
+          "status_code": "N",
+          "group_id": "2"
         },
         {
           "id": "ed040718-2e2b-4394-af6c-bcd595f0c812",
           "order": 220,
           "name": "Silvana",
           "isChild": false,
-          "status_code": "I"
+          "status_code": "N",
+          "group_id": "2"
         },
         {
           "id": "581275cd-3d72-4ba6-a321-9c026ea6347f",
@@ -1712,392 +1855,448 @@
           "order": 222,
           "name": "Cristiane Prima",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "2"
         },
         {
           "id": "c3d8ce85-0ae2-45b4-8ea2-060c85be5ec9",
           "order": 223,
           "name": "Esposo Cristiane",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "2"
         },
         {
           "id": "b9adf2a5-83d3-409f-85bd-b64e22f8e9c8",
           "order": 224,
           "name": "Ricardo Sicoob",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "15"
         },
         {
           "id": "cd1c44d2-6001-4a20-ad9a-505a8c4092aa",
           "order": 225,
           "name": "Ludmilla Ricardo Sicoob",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "15"
         },
         {
           "id": "dcd8b72d-8a55-4f1f-bbf5-6114925bcba9",
           "order": 226,
           "name": "Kleide Sicoob",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "15"
         },
         {
           "id": "e5b20e54-038c-4e43-b6a0-7b20539f9f2c",
           "order": 227,
           "name": "Gisele Sicoob",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "15"
         },
         {
           "id": "5c8628f1-47bd-4775-955b-ccc50f4a08a7",
           "order": 228,
           "name": "Alessandra Sicoob",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "15"
         },
         {
           "id": "2b32d621-988f-4816-8017-4543dc2858e6",
           "order": 229,
           "name": "Ralph da Alessandra Sicoob",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "15"
         },
         {
           "id": "7bcd4aac-4a76-4d97-ace1-3683e71f6a78",
           "order": 230,
           "name": "Mario Sicoob",
           "isChild": false,
-          "status_code": "I"
+          "status_code": "N",
+          "group_id": "15"
         },
         {
           "id": "95dc3f4a-e7d4-4c42-b34e-101285f59f5b",
           "order": 231,
           "name": "Esposa Mario Sicoob",
           "isChild": false,
-          "status_code": "I"
+          "status_code": "N",
+          "group_id": "15"
         },
         {
           "id": "ddafdce3-2f89-47c3-9738-b4912255bf70",
           "order": 232,
           "name": "Larissa Matos",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "21"
         },
         {
           "id": "9a31bad0-1e2f-4312-ac12-2e32be08f9ff",
           "order": 233,
           "name": "Davi Lelis da Larissa",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "21"
         },
         {
           "id": "b9a74461-13ee-49b1-8a60-b8427aeb3194",
           "order": 234,
           "name": "Dani",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "d3f1c7f6-803e-44e9-9747-f57911776528",
           "order": 235,
           "name": "Monique",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "0fcb2716-61b4-4bab-87f8-165f1c7d9986",
           "order": 236,
           "name": "Mariane",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "240bbe52-5f73-4d46-a389-17eb0904d4b6",
           "order": 237,
           "name": "Rodrigo",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "35e76c83-46f7-44dc-835a-f4f69bb13167",
           "order": 238,
           "name": "Debora",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "d881686c-2c4c-41c0-bc85-7d3f11a16a63",
           "order": 239,
           "name": "Tessio",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "a193dd46-b2de-4e2b-b25c-d8ae028ebd7c",
           "order": 240,
           "name": "Miguel",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "a0809be9-74cb-4d73-ba31-3ffeee721dbc",
           "order": 241,
           "name": "Rafa do Miguel",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "21"
         },
         {
           "id": "f2e2a393-e064-4c7e-b7b8-6f89dc34175d",
           "order": 242,
           "name": "Rafa do Victor",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "21"
         },
         {
           "id": "a2c66574-db36-4f40-9a24-d8b4a41bbd26",
           "order": 243,
           "name": "Victão",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "21"
         },
         {
           "id": "cb9a5688-7897-4c0e-bd17-a03a4a5b81ea",
           "order": 244,
           "name": "Nathiele",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "e1885f00-cba0-4132-9144-7f9b2d9cf600",
           "order": 245,
           "name": "Yasminn",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "aafca2cc-1cc4-4fd0-8746-11610b6db61b",
           "order": 246,
           "name": "Maura",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "0a48c82d-38e0-48e8-a965-80244998f1fe",
           "order": 247,
           "name": "Marina da Maura",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "0ff1af53-05c7-454d-9c66-f05765043edd",
           "order": 248,
           "name": "Soraya Soso",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "732c1130-4728-4c09-ac16-2da255dcc761",
           "order": 249,
           "name": "Victor Soso",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "9632f9f8-e143-49f1-b717-31fd7cdfcfbb",
           "order": 250,
           "name": "Carlos Lulu",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "19"
         },
         {
           "id": "00e636ac-1376-49c5-8f76-789a8f5ac4b0",
           "order": 251,
           "name": "Thaís do Lulu",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "19"
         },
         {
           "id": "823a0a3b-9c3e-49ab-8e8b-846faafb8920",
           "order": 252,
           "name": "Babi do Tom",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "20"
         },
         {
           "id": "bd712ab2-51b7-4266-b3f8-cf16bd153ae3",
           "order": 253,
           "name": "Tom da Babi",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "20"
         },
         {
           "id": "3c00d7cd-517c-4d6d-8651-2a3bcc1b3820",
           "order": 254,
           "name": "Bianca",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "20"
         },
         {
           "id": "384e2454-0930-4caf-b0ab-d421818df023",
           "order": 255,
           "name": "Ingrid",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "20"
         },
         {
           "id": "1ae7fd38-1aca-46f4-934f-dba2a47de74c",
           "order": 256,
           "name": "Iago da Ingrid",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "20"
         },
         {
           "id": "22d587f1-ca17-413a-a358-e62c8e450368",
           "order": 257,
           "name": "Gustavo Dating",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "19"
         },
         {
           "id": "889e3e69-c307-4c0e-86f8-390dc07a14f6",
           "order": 258,
           "name": "Camila Dating",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "19"
         },
         {
           "id": "7e53f6ee-7f41-4c7f-96f9-53c40d767376",
           "order": 259,
           "name": "Gabriel Coroinha",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "21"
         },
         {
           "id": "a1c13a5d-c28a-49ec-ade9-ae460b540bdb",
           "order": 260,
           "name": "Adriely",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "22"
         },
         {
           "id": "9377110b-9441-4c52-9529-7fc3581a69b5",
           "order": 261,
           "name": "Mateus da Adriely",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "22"
         },
         {
           "id": "c52922a3-1db4-4f87-b334-e880510e4154",
           "order": 262,
           "name": "Lucilia da Adriely",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "22"
         },
         {
           "id": "1995e788-b772-49f6-9e76-d12e1a3d1d98",
           "order": 263,
           "name": "Yana Legio",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "44278e2e-2137-4c02-a5b8-8ac895f140ac",
           "order": 264,
           "name": "João da Yana Legio",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "10"
         },
         {
           "id": "9906d3d2-8bfb-4aad-b688-0c48affb59d8",
           "order": 265,
           "name": "Letícia BR",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "19"
         },
         {
           "id": "4ad0f0b6-4ce8-4925-b1a6-710b153343ef",
           "order": 266,
           "name": "Dani Gato",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "21"
         },
         {
           "id": "f19e5f65-df8b-401d-9699-1e5be67bae1f",
           "order": 267,
           "name": "Mina do Dani Gato",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "21"
         },
         {
           "id": "a720ead3-a6d2-4f71-810b-5f66f382588a",
           "order": 268,
           "name": "Reno Legio",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "19"
         },
         {
           "id": "e2e1077d-5879-46ad-9047-623be67bec8e",
           "order": 269,
           "name": "Bel do Reno Legio",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "19"
         },
         {
           "id": "38481151-cb5c-476f-aa0a-e72d134177f9",
           "order": 270,
           "name": "Letícia Wiz",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "21"
         },
         {
           "id": "1e76a60b-015f-40d1-95b3-6e07f303dc9e",
           "order": 271,
           "name": "Guilherme da Letícia Wiz",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "21"
         },
         {
           "id": "3161a9d0-abba-4ad0-95b7-4f0fba276377",
           "order": 272,
           "name": "Jerônimo CF",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "19"
         },
         {
           "id": "489afd37-0516-4ca5-a9aa-5d3a7e270d32",
           "order": 273,
           "name": "Danilo do Jeronimo CF",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "19"
         },
         {
           "id": "b9ca3c9c-dd8e-4ca2-b9df-94cea08e317a",
           "order": 274,
           "name": "Gleice Psico",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "21"
         },
         {
           "id": "647b179f-3476-4809-a7d2-2661ab093e9a",
           "order": 275,
           "name": "Marido da Gleice Psico",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "21"
         },
         {
           "id": "fb0d7b8c-1e6b-42ca-b8c2-6e14aa4dba11",
           "order": 276,
           "name": "Padre Cassio",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "21"
         },
         {
           "id": "8c9af57d-d7c5-40ca-9450-e6491bcfa57e",
           "order": 277,
           "name": "Padre Fernando",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "22"
         },
         {
           "id": "644d346f-538b-49f4-9b2e-319f8c7e3c78",
@@ -2111,77 +2310,216 @@
           "order": 279,
           "name": "Arthur Gente Linda",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "12"
         },
         {
           "id": "21215db9-645b-4dea-bfc5-6c035f5afd19",
           "order": 280,
           "name": "Lucas do Arthur Gente Linda",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "12"
         },
         {
           "id": "e1d784d4-b33b-4bb4-959b-3c529792d14b",
           "order": 281,
           "name": "Mary Gente Linda",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "12"
         },
         {
           "id": "47d51a91-75d1-4eb8-b2c7-b6e746523580",
           "order": 282,
           "name": "Marcelus da Mary Gente Linda",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "12"
         },
         {
           "id": "1ed7917e-6e89-455f-a8fc-daf77944d450",
           "order": 283,
           "name": "Gabi Gente Linda",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "12"
         },
         {
           "id": "8fccc00f-fde0-4bdd-b7f9-ba71007cdaef",
           "order": 284,
           "name": "João da Gabi Gente Linda",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "12"
         },
         {
           "id": "84f2d451-4759-4a61-8753-940c77665f16",
           "order": 285,
           "name": "Nath UNB",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "14"
         },
         {
           "id": "31d74432-7ebb-4af6-9e14-2b687d82d237",
           "order": 286,
           "name": "Lucas da Nath UNB",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "14"
         },
         {
           "id": "184d64e6-09d6-41a7-abf7-013f7cde87c5",
           "order": 287,
           "name": "Rita de Cassia",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "21"
         },
         {
           "id": "d3e37fb8-e643-491a-afb3-212da036b6f9",
           "order": 288,
           "name": "Ubiracy Brazão",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "21"
         },
         {
           "id": "8c5d66cb-d272-4ae4-bf8d-c1e3a727c8f3",
           "order": 289,
           "name": "Giovana Serrano Sanguini",
           "isChild": false,
-          "status_code": "Y"
+          "status_code": "CE",
+          "group_id": "2"
+        },
+        {
+          "id": "ae57b0ce-7afb-489f-9511-27dbb89de79d",
+          "order": 290,
+          "name": "Felipe Adao Vitorino de Abreu",
+          "isChild": false,
+          "status_code": "CE",
+          "group_id": "22"
+        },
+        {
+          "id": "49f89826-a2c0-41a2-82d1-fad205d1de14",
+          "order": 291,
+          "name": "Giselle",
+          "isChild": false,
+          "status_code": "CE",
+          "group_id": "11"
+        },
+        {
+          "id": "6c03df45-6ba9-4b42-875c-69efdd501c17",
+          "order": 292,
+          "name": "Henrique",
+          "isChild": false,
+          "status_code": "CE",
+          "group_id": "11"
+        },
+        {
+          "id": "77e6bb70-f7ec-4be6-8ddd-f9020d5be0f1",
+          "order": 293,
+          "name": "Ernane",
+          "isChild": false,
+          "status_code": "Y",
+          "group_id": "11"
+        },
+        {
+          "id": "e063a0ae-2eb2-4871-8b9d-343b20cd9bf5",
+          "order": 294,
+          "name": "Padre Helio",
+          "isChild": false,
+          "status_code": "N",
+          "group_id": 1
+        },
+        {
+          "id": "4a44121d-1712-4c21-b5d9-cc8ea3dd892e",
+          "order": 295,
+          "name": "Eliane RCC",
+          "isChild": false,
+          "status_code": "CE",
+          "group_id": 1
+        },
+        {
+          "id": "d1f4f612-dce9-4a7b-9d77-db0c09d5ab06",
+          "order": 296,
+          "name": "Margareth RCC",
+          "isChild": false,
+          "status_code": "CE",
+          "group_id": 1
+        },
+        {
+          "id": "482b4d2d-ada6-4cfd-a464-b6368d28f4dd",
+          "order": 297,
+          "name": "Shayra",
+          "isChild": false,
+          "status_code": "CE",
+          "group_id": 1
+        },
+        {
+          "id": "051a8154-3722-4c96-b18f-7e983bf5c811",
+          "order": 298,
+          "name": "Júlia irmã da Monique",
+          "isChild": false,
+          "status_code": "Y",
+          "group_id": 1
+        },
+        {
+          "id": "10e653d9-a03a-44bd-9e9c-3e64b7628f53",
+          "order": 299,
+          "name": "Isabel Consolata",
+          "isChild": false,
+          "status_code": "CE",
+          "group_id": 1
+        },
+        {
+          "id": "d6c2efe8-29e8-4003-a81c-cd45bd5ff98e",
+          "order": 300,
+          "name": "Adriano Consolata",
+          "isChild": false,
+          "status_code": "CE",
+          "group_id": 1
+        },
+        {
+          "id": "f63db1cb-3b51-46b8-8157-087473a3e2c9",
+          "order": 301,
+          "name": "João Paulo Consolata",
+          "isChild": false,
+          "status_code": "CE",
+          "group_id": 1
+        },
+        {
+          "id": "e2580d97-7e6c-49e8-97c6-7b704a6db4aa",
+          "order": 302,
+          "name": "Francisco José Alboquerque",
+          "isChild": false,
+          "status_code": "CE",
+          "group_id": 1
+        },
+        {
+          "id": "bced0581-c40d-4843-809e-3dbe672db0d9",
+          "order": 303,
+          "name": "Jaciara ",
+          "isChild": false,
+          "status_code": "CE",
+          "group_id": 1
+        },
+        {
+          "id": "1adb4f2f-1ee8-40ac-8be3-baff61e811b7",
+          "order": 304,
+          "name": "Hiomone",
+          "isChild": false,
+          "status_code": "Y",
+          "group_id": 1
+        },
+        {
+          "id": "358933a8-0fac-41c0-8066-19b0163bb024",
+          "order": 305,
+          "name": "Tatiane",
+          "isChild": false,
+          "status_code": "Y",
+          "group_id": 1
         }
       ]
     }
